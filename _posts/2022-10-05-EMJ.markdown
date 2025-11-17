@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "2022 Epic Mega Jam"
+date:   2022-10-05 19:46:14 -0800
+categories: 
+---
+
+Last week, I participated in my first game jam- the [2022 Epic Mega Jam](https://www.unrealengine.com/en-US/blog/incoming-2022-epic-megajam) which is the official game jam of Unreal Engine. The theme for this year's jam was *as above so below*. My team chose to create a trash collection boat game where the you skim the ocean for trash (below), while avoiding dangerous pollution clouds (above). One of my teammates, [Ellie](https://www.youtube.com/@elliemakesgames), made this kick-ass trailer for our game:
+
+<iframe width="100%" height="700" src="https://www.youtube.com/embed/5AbITWPCCBc?si=1SsMxHImNluT7G_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Stuff I Worked On
+
+### Design
+
+After our team settled on a general direction for our game. I put together a quick design doc to show our level progression. I wanted to keep the design fairly light, so I opted to only introduce a single simple mechanic on each new level. I chose the color palette of the figures in the design document based on our team discussion regarding what the final look and feel of the game should be.
+
+<iframe src="https://drive.google.com/file/d/1kqvKYHEvz8NcB73gf99pyaR2w8IOLFoj/preview" width="100%" height="700" allow="autoplay"></iframe>
+
+
+### Systems
+
+Another thing I worked on was a level settings system so that we could quickly iterate on the various levels. I created a LevelSettings data structure in C++ for holding info such as the map to load and what features to enable, then added an array of these to our GameInstance class. At runtime, our game uses this array to dynamically load the levels in the correct order.
+
+![](https://imgur.com/NTHVAMj.png) 
+
+
+### Gameplay
+
+I also did most of the programming for the trash collection mechanism and I created the collection radius effect.
+
+![](https://imgur.com/s0xFgd6.gif) 
+
+
+### Level Assembly
+
+Finally, I assembled three of the seven levels that made it into the final build of the game (levels 1, 2, and 4). You can download the game from [our team's itch.io page](https://itch.io/jam/2022-epic-megajam/rate/1687480).
+
