@@ -5,8 +5,6 @@ date:   2024-04-03 19:46:14 -0800
 categories: 
 ---
 
-# World Partition Regions Won't Unload: How to Fix
-
 I recently ran into this bug in UE 5.3 where unreal refused to unload my landscape that I had imported via a heightmap from Gaea. This is especially strange because the landscape will appear as loaded in the editor even when they are marked as unloaded in the world partition minimap. Loading and unloading the regions manually from there does not help.
 
 ![](/assets/images/01_problem.png) 

@@ -5,8 +5,6 @@ date:   2024-05-24 19:46:14 -0800
 categories: 
 ---
 
-# Unreal Engine: Understanding TexCoord and Flowmaps
-
 One of the more mysterious elements in the Unreal Engine material graph is the TexCoord node.
 
 ![](/assets/images/texcoord_node.png) 

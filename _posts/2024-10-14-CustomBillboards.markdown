@@ -5,8 +5,6 @@ date:   2024-10-14 19:46:14 -0800
 categories: 
 ---
 
-# Unreal Engine: How to Set Up Custom Actor Billboards From C++
-
 
 
 Ever wonder how to set a custom actor billboard from C++? Here's a step by step guide.
@@ -86,5 +84,4 @@ ATestActor::ATestActor(const FObjectInitializer& Initializer): Super(Initializer
 #endif
 }
 ```
-
 

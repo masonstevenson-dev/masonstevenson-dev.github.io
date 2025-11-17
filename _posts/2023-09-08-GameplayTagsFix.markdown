@@ -5,8 +5,6 @@ date:   2023-09-08 19:46:14 -0800
 categories: 
 ---
 
-# UE5 - How to Fix C++ Defined Gameplay Tags Disappearing from Project Settings
-
 Stop reading if you are not interested in:
 
 - Defining gameplay tags in C++ UE5 plugins.
@@ -47,5 +45,4 @@ My solution for this was to create a separate module for our gameplay tags files
   ]
 }
 ```
-
 

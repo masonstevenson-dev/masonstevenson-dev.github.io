@@ -5,8 +5,6 @@ date:   2023-11-17 19:46:14 -0800
 categories: 
 ---
 
-# UE Stats System Woes
-
 I'm frustrated.
 
 All I needed was a nice way to keep track of errors that happen on tick. I wanted something that would count the errors and then display a warning message to the screen like:
@@ -155,5 +153,4 @@ The final result log looks something like this:
 
 
 Is this thread safe? no. Is this performant? Probably not.  But it does what I want, and I will compile it out of shipping builds anyway. 
-
 

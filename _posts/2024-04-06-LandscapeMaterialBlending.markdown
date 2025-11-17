@@ -5,8 +5,6 @@ date:   2024-04-06 19:46:14 -0800
 categories: 
 ---
 
-# Blending Landscape Materials in Unreal Engine
-
 A common workflow when creating terrain in Unreal Engine is to create a complex master material that allows you to combine the various elements of your landscape (dirt, grass, rock, snow, etc) together. Understanding all your options when creating such a material can be a bit daunting, since in classic UE fashion there are multiple features with similar names that do completely different things. This document aims to give you a concise overview of the different ways you can blend your landscape materials together. 
 
 

@@ -5,8 +5,6 @@ date:   2024-11-17 19:46:14 -0800
 categories: 
 ---
 
-# PCG Difference Node: Detailed Breakdown
-
 If you have spent any time using Unreal Engine's Procedural Content Generation (PCG) system, you may have noticed that the difference node doesn't always quite do exactly what you might expect. The goal of this article is to clear up some of the confusion people may have with this powerful PCG node.
 
 

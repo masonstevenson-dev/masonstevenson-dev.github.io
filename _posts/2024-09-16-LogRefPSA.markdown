@@ -5,8 +5,6 @@ date:   2024-09-16 19:46:14 -0800
 categories: unreal
 ---
 
-# PSA: UE_LOG_REF is Deprecated
-
 I was recently browsing through the UE 5.2 logging macros, and I noticed that `UE_LOG_REF` has been marked with "DO NOT USE":
 
 ```cpp
