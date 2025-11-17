@@ -25,15 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   sqarespace site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-minima:
-  social_links:
-    - title: masonstevenson-dev
-      icon: github
-      url: "https://github.com/masonstevenson-dev"
-    - title: Jekyll at X (formerly Twitter)
-      icon: bluesky
-      url: "https://bsky.app/profile/namezaretaken.bsky.social"
+github_username:  masonstevenson-dev
+youtube_username: masonstevenson-dev
 
 # Build settings
 theme: minima
