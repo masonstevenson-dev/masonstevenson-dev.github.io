@@ -28,6 +28,7 @@ github_username:  masonstevenson-dev
 youtube_username: "@masonstevenson-dev"
 
 # Build settings
+# NOTE: to run locally use theme instead of the remote theme.
 # theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
