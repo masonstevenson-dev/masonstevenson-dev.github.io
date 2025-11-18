@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 One major frustration I've had is understanding how UE's input routing system works. Earlier this year, I took a crack at trying to understand how it works end-to-end. These are my findings.

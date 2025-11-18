@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 Stop reading if you are not interested in:

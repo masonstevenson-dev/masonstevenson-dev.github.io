@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: unreal
+author_profile: true
 ---
 
 In order to enable HWRT (Hardware Ray Tracing) in UE5, a somewhat mysterious setting must be enabled: *Support Compute Skin Cache*. 

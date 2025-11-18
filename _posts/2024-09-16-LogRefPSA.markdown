@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: unreal
+author_profile: true
 ---
 
 I was recently browsing through the UE 5.2 logging macros, and I noticed that `UE_LOG_REF` has been marked with "DO NOT USE":

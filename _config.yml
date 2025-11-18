@@ -24,8 +24,25 @@ description: >- # this means to ignore newlines until "baseurl:"
   sqarespace site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  masonstevenson-dev
-youtube_username: "@masonstevenson-dev"
+
+author:
+  name: "Socials"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/masonstevenson-dev"
+    - label: "Bluesky"
+      icon: "fab fa-fw fa-bluesky"
+      url: "https://bsky.app/profile/namezaretaken.bsky.social"
+    - label: "Artstation"
+      icon: "fab fa-fw fa-artstation"
+      url: "https://www.artstation.com/exportgeometry"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@masonstevenson-dev"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/masonstevenson"
 
 # Build settings
 # NOTE: to run locally use theme instead of the remote theme.

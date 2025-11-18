@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 Lately, I've been obsessed with terrain textures. One of the biggest challenges with texturing terrain is getting the textures to look good both up close and far away. The tradeoff is usually:

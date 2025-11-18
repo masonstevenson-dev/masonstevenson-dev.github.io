@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 At the start of this year, I spent several months studying the Gameplay Ability System (GAS) in UE5. I wanted to evaluate its usefulness for both singleplayer and mutliplayer applications, with my logic being that if you are interested in creating both singleplayer and multiplayer games, you might as well learn GAS from the start. As it stands today, I feel that GAS is emblematic of a larger design philosophy that seems to be shared by many portions of the Unreal Engine codebase- one that I am feeling increasingly resistant to.

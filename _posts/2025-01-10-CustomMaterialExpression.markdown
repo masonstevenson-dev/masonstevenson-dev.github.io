@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: unreal
+author_profile: true
 ---
 
 Ever wonder how you can create your own custom material expression nodes in Unreal? Not material functions, but the actual green-border material expression nodes (like add, subtract, lerp, etc)?

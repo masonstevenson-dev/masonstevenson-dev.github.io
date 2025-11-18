@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 When using the Unreal Engine [landscape material system](https://dev.epicgames.com/documentation/en-us/unreal-engine/landscape-materials-in-unreal-engine), each landscape layer must be associated with a corresponding "LayerInfo" data asset (you can read more about this in my previous blog post, [Blending Landscape Materials in Unreal Engine](https://www.exportgeometry.com/blog/unreal-landscape-material-blending)). However, if you have ever tried to add a new Landscape Layer Sample node to an existing landscape material, you may have noticed that sometimes the newly created layer does not actually show up in the list of available layers on the landscape mode paint tab.

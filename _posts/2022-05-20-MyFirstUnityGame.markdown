@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: unity
+author_profile: true
 ---
 
 

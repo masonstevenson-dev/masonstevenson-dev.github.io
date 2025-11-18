@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 I recently ran into this bug in UE 5.3 where unreal refused to unload my landscape that I had imported via a heightmap from Gaea. This is especially strange because the landscape will appear as loaded in the editor even when they are marked as unloaded in the world partition minimap. Loading and unloading the regions manually from there does not help.

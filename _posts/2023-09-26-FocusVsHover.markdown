@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 One major confusion I've had while working with Unreal Engine widgets is how UE handles widget *focus* vs widget *hover* states. If you've spent any time working with the UI framework, you may have experienced something along the lines of the following:

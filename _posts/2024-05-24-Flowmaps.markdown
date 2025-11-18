@@ -8,6 +8,7 @@ classes: wide
 sidebar:
   nav: "docs"
 categories: 
+author_profile: true
 ---
 
 One of the more mysterious elements in the Unreal Engine material graph is the TexCoord node.
