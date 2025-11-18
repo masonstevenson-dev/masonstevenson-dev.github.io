@@ -3,6 +3,7 @@ permalink: /posts/2023-11-17-PeriodicLogging/
 layout: single
 title:  "UE Stats System Woes"
 date:   2023-11-17 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

@@ -3,6 +3,7 @@ permalink: /posts/2023-09-23-GAS/
 layout: single
 title:  "Gameplay Ability System (GAS) in UE5"
 date:   2023-09-23 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

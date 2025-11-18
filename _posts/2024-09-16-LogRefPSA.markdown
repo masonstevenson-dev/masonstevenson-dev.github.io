@@ -3,6 +3,7 @@ permalink: /posts/2024-09-16-LogRefPSA/
 layout: single
 title:  "PSA: UE_LOG_REF is Deprecated"
 date:   2024-09-16 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

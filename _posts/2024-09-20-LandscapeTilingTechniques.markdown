@@ -3,6 +3,7 @@ permalink: /posts/2024-09-20-LandscapeTilingTechniques/
 layout: single
 title:  "Techniques for Hiding Repetitive Terrain Textures In Unreal"
 date:   2024-09-20 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

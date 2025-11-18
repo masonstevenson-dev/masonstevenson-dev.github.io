@@ -3,6 +3,7 @@ permalink: /posts/2023-09-08-GameplayTagsFix/
 layout: single
 title:  "UE5 - How to Fix C++ Defined Gameplay Tags Disappearing from Project Settings"
 date:   2023-09-08 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

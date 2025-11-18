@@ -15,8 +15,6 @@ docs:
         url: /posts/2024-09-20-LandscapeTilingTechniques/
       - title: "PSA: UE_LOG_REF is Deprecated"
         url: /posts/2024-09-16-LogRefPSA/
-      - title: "Test Blog"
-        url: /posts/2024-06-28-testblog/
       - title: "Unreal Engine: Understanding TexCoord and Flowmaps"
         url: /posts/2024-05-24-Flowmaps/
       - title: "Blending Landscape Materials in Unreal Engine"

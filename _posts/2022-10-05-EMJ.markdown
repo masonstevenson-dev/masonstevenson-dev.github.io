@@ -3,6 +3,7 @@ permalink: /posts/2022-10-05-EMJ/
 layout: single
 title:  "2022 Epic Mega Jam"
 date:   2022-10-05 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

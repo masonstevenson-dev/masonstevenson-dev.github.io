@@ -3,6 +3,7 @@ permalink: /posts/2024-03-12-SkinCache/
 layout: single
 title:  "What Exactly does 'Compute Skin Cache' Do?"
 date:   2024-03-12 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

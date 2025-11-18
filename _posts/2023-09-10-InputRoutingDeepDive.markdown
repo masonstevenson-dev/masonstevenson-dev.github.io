@@ -3,6 +3,7 @@ permalink: /posts/2023-09-10-InputRoutingDeepDive/
 layout: single
 title:  "A (Semi) Comprehensive Breakdown of Unreal Engine Input Routing"
 date:   2023-09-10 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"

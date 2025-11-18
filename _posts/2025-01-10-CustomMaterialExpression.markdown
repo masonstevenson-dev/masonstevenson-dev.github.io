@@ -3,6 +3,7 @@ permalink: /posts/2025-01-10-CustomMaterialExpression/
 layout: single
 title:  "Defining Custom Material Nodes with C++ and HLSL"
 date:   2025-01-10 19:46:14 -0800
+show_date: true
 classes: wide
 sidebar:
   nav: "docs"
