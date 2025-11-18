@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2022-05-20-MyFirstUnityGame/
+layout: single
 title:  "My First Unity Game"
 date:   2022-05-20 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: unity
 ---
 

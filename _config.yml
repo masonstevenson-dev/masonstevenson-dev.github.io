@@ -28,7 +28,7 @@ github_username:  masonstevenson-dev
 youtube_username: "@masonstevenson-dev"
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 

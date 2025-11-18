@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-04-03-WorldPartitionUnloadFix/
+layout: single
 title:  "World Partition Regions Won't Unload: How to Fix"
 date:   2024-04-03 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

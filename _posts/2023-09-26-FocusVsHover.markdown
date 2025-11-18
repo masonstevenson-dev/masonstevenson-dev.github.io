@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2023-09-26-FocusVsHover/
+layout: single
 title:  "UE Widget Focus vs Hover States"
 date:   2023-09-26 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

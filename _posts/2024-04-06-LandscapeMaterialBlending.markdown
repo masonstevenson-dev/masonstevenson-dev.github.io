@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-04-06-LandscapeMaterialBlending/
+layout: single
 title:  "Blending Landscape Materials in Unreal Engine"
 date:   2024-04-06 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

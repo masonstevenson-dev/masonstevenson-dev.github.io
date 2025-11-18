@@ -1,8 +1,12 @@
 ---
-layout: post
+permalink: /posts/2025-01-10-CustomMaterialExpression/
+layout: single
 title:  "Defining Custom Material Nodes with C++ and HLSL"
 date:   2025-01-10 19:46:14 -0800
-categories: 
+classes: wide
+sidebar:
+  nav: "docs"
+categories: unreal
 ---
 
 Ever wonder how you can create your own custom material expression nodes in Unreal? Not material functions, but the actual green-border material expression nodes (like add, subtract, lerp, etc)?

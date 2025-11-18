@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-11-17-PCGDifferenceNode/
+layout: single
 title:  "PCG Difference Node: Detailed Breakdown"
 date:   2024-11-17 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

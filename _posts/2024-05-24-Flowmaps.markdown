@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-05-24-Flowmaps/
+layout: single
 title:  "Unreal Engine: Understanding TexCoord and Flowmaps"
 date:   2024-05-24 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

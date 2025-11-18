@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-10-09-FixMissingLandscapeLayers/
+layout: single
 title:  "How to Fix: Unreal Landscape Material Layers Not Showing Up"
 date:   2024-10-09 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 

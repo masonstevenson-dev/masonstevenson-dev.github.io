@@ -1,7 +1,11 @@
 ---
-layout: post
+permalink: /posts/2024-10-14-CustomBillboards/
+layout: single
 title:  "Unreal Engine: How to Set Up Custom Actor Billboards From C++"
 date:   2024-10-14 19:46:14 -0800
+classes: wide
+sidebar:
+  nav: "docs"
 categories: 
 ---
 
