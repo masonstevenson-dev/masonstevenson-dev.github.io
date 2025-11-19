@@ -9,14 +9,30 @@ docs:
         url: /posts/2024-11-17-PCGDifferenceNode/
       - title: "Unreal Engine: How to Set Up Custom Actor Billboards From C++"
         url: /posts/2024-10-14-CustomBillboards/
+      - title: "Maya: How to Uniformly Move Two Objects Towards Each Other"
+        url: /posts/2024-10-24-MayaUniformMove/
       - title: "How to Fix: Unreal Landscape Material Layers Not Showing Up"
         url: /posts/2024-10-09-FixMissingLandscapeLayers/
       - title: "Techniques for Hiding Repetitive Terrain Textures In Unreal"
         url: /posts/2024-09-20-LandscapeTilingTechniques/
+      - title: "PSA: Houdini Engine Applies Gamma Correction to Vertex Colors"
+        url: /posts/2024-08-26-PSAHoudiniEngineVertexColors/
+      - title: "Project Breakdown: Wrought Iron Fence Generator"
+        url: /posts/2024-07-19-FencegenProjectBreakdown/
       - title: "PSA: UE_LOG_REF is Deprecated"
         url: /posts/2024-09-16-LogRefPSA/
+      - title: "Houdini Trim Sheet Tools: Issues and Improvements"
+        url: /posts/2024-06-21-PostgenUVs/
+      - title: "Custom Houdini Node: Pattern Filemerge"
+        url: /posts/2024-06-18-PatternFilemerge/
+      - title: "How to adjust heightmap black levels with Python"
+        url: /posts/2024-06-07-HeightmapBlacklevel/
       - title: "Unreal Engine: Understanding TexCoord and Flowmaps"
         url: /posts/2024-05-24-Flowmaps/
+      - title: "Custom Houdini Nodes: Node Combine and Node Split"
+        url: /posts/2024-05-17-NodeSplitCombine/
+      - title: "Custom Houdini Node: DeleteOutliers"
+        url: /posts/2024-05-17-DeleteOutliers/
       - title: "Blending Landscape Materials in Unreal Engine"
         url: /posts/2024-04-06-LandscapeMaterialBlending/
       - title: "World Partition Regions Won't Unload: How to Fix"
@@ -29,6 +45,8 @@ docs:
     children:
       - title: "UE Stats System Woes"
         url: /posts/2023-11-17-PeriodicLogging/
+      - title: "Handgun Project: Troubleshooting"
+        url: /posts/2023-11-06-EPHandgunTroubleshooting/
       - title: "Project Diary: Creating a Donut with Procedural Sprinkles"
         url: /posts/2023-10-12-DonutProjectDiary/
       - title: "UE Widget Focus vs Hover States"

@@ -23,7 +23,7 @@ One of the best ways to jumpstart your landscape material is to create an *Autom
 
 For example, the UE PCGElectricDreams sample project uses an automaterial for its landscape that blends between grass, mulch, rocky dirt, and cliffs based on the slope of the landscape. In the video below, you can see that when the landscape is flat, the material applies a grass texture and a mulch texture, blended together using a noise mask for some random breakup. As the landscape gains a slight slope, the rocky dirt texture is blended in. Finally, as the slope becomes more severe, it switches to the cliff texture. If you want the technical details of exactly how this material was constructed, I highly recommend downloading [PCGElectricDreams](https://www.unrealengine.com/marketplace/en-US/product/electric-dreams-env) and digging through the  M_BGLandscape_Auto material graph.
 
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/K1O59HiJfxk?si=NZOVJhT-Gy4pRlp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K1O59HiJfxk?si=NZOVJhT-Gy4pRlp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 Automaterials are a great starting point for your landscape, but they won't necessarily get you all the way towards a great looking final product. To get the rest of the way, you are typically going to want to use Unreal's *Landscape Layer* system, combined with either manual layer painting or layer masking.
@@ -199,7 +199,7 @@ Okay, ready for the confusing part? When you setup your landscape layers while i
 
 More specifically, if you create a layer with a *weight blended layer* editor blend type, whenever you increase the weights in a layer- i.e. paint in that layer, manually or otherwise- the unreal editor will **uniformly decrease the values of the weights of all other weight blended layers currently associated with your landscape material**. You can see this in action in the example video below- in the spot where I paint in snow, the base layer and water layer weights are actually erased. 
 
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/THynWSZUFVE?si=_Pi71o-TMJTTjFRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/THynWSZUFVE?si=_Pi71o-TMJTTjFRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 This works in the opposite direction as well. If you start erasing a weight blended layer, all the other layers will have their weights uniformly increased.

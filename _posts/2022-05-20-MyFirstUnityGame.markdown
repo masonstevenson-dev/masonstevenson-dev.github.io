@@ -17,4 +17,4 @@ I recently spent some time putting together this Lunar Lander clone in unity. I 
 
 
 
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/F9KP06PVB4s?si=I5UTCc9QwRdnsypH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F9KP06PVB4s?si=I5UTCc9QwRdnsypH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

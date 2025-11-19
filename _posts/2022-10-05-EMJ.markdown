@@ -13,7 +13,7 @@ author_profile: true
 
 Last week, I participated in my first game jam- the [2022 Epic Mega Jam](https://www.unrealengine.com/en-US/blog/incoming-2022-epic-megajam) which is the official game jam of Unreal Engine. The theme for this year's jam was *as above so below*. My team chose to create a trash collection boat game where the you skim the ocean for trash (below), while avoiding dangerous pollution clouds (above). One of my teammates, [Ellie](https://www.youtube.com/@elliemakesgames), made this kick-ass trailer for our game:
 
-<iframe width="100%" height="700" src="https://www.youtube.com/embed/5AbITWPCCBc?si=1SsMxHImNluT7G_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5AbITWPCCBc?si=1SsMxHImNluT7G_u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Stuff I Worked On
