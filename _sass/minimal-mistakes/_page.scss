@@ -559,3 +559,44 @@ body {
     }
   }
 }
+
+:root {
+    --swiper-navigation-color: white;
+    --swiper-pagination-color: white;
+}
+
+.swiper-thumbnail-slide.swiper-slide-thumb-active::before {
+    content: ""; /* Essential for pseudo-elements to display */
+    
+    /* Bar appearance */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    /* Bar dimensions and color */
+    width: 100%;
+    height: 4px; /* The specified thickness */
+    background-color: #e2b648; 
+    
+    /* Ensure the bar is on top of the slide content */
+    z-index: 10; 
+}
+
+.swiper-thumbnail-slide:not(.swiper-slide-thumb-active)::before {
+    content: ""; /* Essential for pseudo-elements to display */
+    
+    /* Bar appearance */
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    /* Bar dimensions and color */
+    width: 100%;
+    height: 4px; /* The specified thickness */
+    background-color: grey; 
+    
+    /* Ensure the bar is on top of the slide content */
+    z-index: 10; 
+}

@@ -1,3 +1,11 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Portfolio"
+    url: /portfolio/
+
 docs:
   - title: "2025"
     children:
