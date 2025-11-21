@@ -3,7 +3,7 @@ permalink: /portfolio/
 layout: single
 author_profile: true
 title: "Portfolio"
-classes: wide-page-layout
+classes: portfolio-wide
 
 # --- Swiper Assets ---
 # You need to load Swiper CSS and JS for the carousel to work.
