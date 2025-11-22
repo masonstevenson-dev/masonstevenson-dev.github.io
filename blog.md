@@ -2,7 +2,7 @@
 permalink: /blog/
 layout: archive
 author_profile: true
-title: "Blog"
+title: "All Posts"
 ---
 
 <div class="archive__wrapper">
