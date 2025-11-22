@@ -1,7 +1,7 @@
 ---
 permalink: /posts/2024-06-21-PostgenUVs/
 layout: single
-title:  "# Houdini Trim Sheet Tools: Issues and Improvements"
+title:  "Houdini Trim Sheet Tools: Issues and Improvements"
 date:   2024-06-21 19:46:14 -0800
 show_date: true
 classes: wide

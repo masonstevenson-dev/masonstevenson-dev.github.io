@@ -107,7 +107,7 @@ header:
     margin-top: 0em;
 ">
 
-<div style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
   <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
     <h2 style="margin-top: 0px;">Hex Engine</h2>
     <p>
@@ -130,7 +130,7 @@ header:
     <iframe width="560" height="315" src="https://www.youtube.com/embed/qFVvcpCfabI?si=AOiYj8CQvU_eDIKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
 </div>
-<div style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
   <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbzxm4FqhpI?si=VxKzvvQVR0qiVL5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </div>
@@ -144,7 +144,7 @@ header:
     </p>
   </div>
 </div>
-<div style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
   <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
     <img src="/assets/images/portfolio/AutomationGraph.png">
   </div>
@@ -170,7 +170,7 @@ header:
     margin-top: 0em;
 ">
 
-<div style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
   <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
     <h2 style="margin-top: 0px;">Mantle ECS</h2>
     <p>
@@ -199,7 +199,7 @@ header:
     margin-top: 0em;
 ">
 
-<div style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
   <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
     <h2 style="margin-top: 0px;">PCG: Extract Collision Boxes</h2>
     <p>
@@ -218,7 +218,7 @@ header:
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; margin-top: 2em;">
+<div style="display: flex; flex-wrap: wrap; margin-top: 0em; margin-bottom: 6em;">
   <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
     <p>
     One interesting problem I ran into was that occasionally the mushrooms would clip into the tree stump mesh. I needed a way to detect intersections of the mushroom caps with the tree stump, while ignoring the mushroom stalks (these are okay to intersect). In this case, doing a simple bounding box detection is not enough.
@@ -271,6 +271,69 @@ header:
   </div>
 </div>
 
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbzxm4FqhpI?si=VxKzvvQVR0qiVL5U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <h2 style="margin-top: 0px;">River Generator</h2>
+    <p>
+    I created a river generator HDA that takes an Unreal Engine landscape spline as input and then generates a river mesh based on the path of the spline and the width of each spline segment. Flowmap data for scrolling the water material along the path of the spline is computed in Houdini and stored in the vertex colors of the mesh.
+    </p>
+    <p>
+    One challenge I ran into was that the SideFX labs flowmap generator produces colors in UV space, which leads to artifacts at each bend in the spline. I rewrote the VEX code for computing the flowmaps to output world-space colors, and was able to get a much cleaner result.
+    </p>
+  </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 6em;">
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <a href="/assets/images/portfolio/river_mat_3.png" target="_blank">
+      <img src="/assets/images/portfolio/river_mat_3.png">
+    </a>
+  </div>
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <p>
+    For the river material, I created a simplified version of the water material included in the <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/water-system-in-unreal-engine" target="_blank">UE Water System Plugin</a>.
+    </p>
+    <p>
+    One thing I would like to improve in the future is the realism of the ripple effect. With the stock UE "flowmaps" node, I'm still getting a bit of noticeable flicker as it blends between the normalmap and the time-adjusted normalmap. I'd like to explore more techniques for improving this, such as <a href="https://www.youtube.com/watch?v=VHet3I4u614&t=9120s" target="_blank">this technique</a> from Prismatica that adds a third blend so that at any given time, one texture sample is being blended in, one is being blended out, and one is steady.
+    </p>
+    <p>
+    To see the code and additional documation, see the github links below.
+    </p>
+    <a href="/posts/2024-05-24-Flowmaps/" class="btn btn--primary" target="_blank" style="margin-right: 10px;">Blog - Understanding TexCoord & Flowmaps</a>
+  </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <h2 style="margin-top: 0px;">Fence Generator</h2>
+    <p>
+    I created this fence generator HDA that assembles prefabricated fence sections and runs a stagger computation that splits up the sections into smaller subsections based on how sloped the landscape is.
+    </p>
+    <p>
+    Fence pickets and posts are exported from Houdini as <a href="https://dev.epicgames.com/documentation/en-us/unreal-engine/instanced-static-mesh-component-in-unreal-engine#instancedstaticmesh" target="_blank">Instanced Static Meshes</a>, and additionally the posts are rotated randomly for some visual breakup.
+    </p>
+  </div>
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wek17gXQEKQ?si=xoesGpHwY6xpe-04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <p>
+    My original goal was to create a generalized fence generator that could support many different fence types. As I worked on the project, I realized that making a lightwight tool (in terms of number of configurable parameters) is feels more practical since most users of the tool are probably mostly concerned with making the "big decisions" as opposed to having dozens of small tweakable parameters.
+    </p>
+    <p>
+    One thing I would like to improve in the future is supporting more fine-grained control at the end of the spline. Due to the fact that this tool does not allow stretching, the post placed at the last point on the spline cannot easily be positioned exactly where you want it. In the future, I would like to find a way that both ends can be positioned exactly.
+    </p>
+    <a href="/posts/2024-07-19-FencegenProjectBreakdown/" class="btn btn--primary" target="_blank" style="margin-right: 10px;">Blog - Fence Project Breakdown</a>
+  </div>
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <img src="/assets/images/top_level_controls.png">
+  </div>
+</div>
+
 <h1 style="margin-top: 2em; margin-bottom: 0em; font-size: 250%;">Pipeline</h1>
 <hr style="
     border: none; 
@@ -279,6 +342,31 @@ header:
     width: 100%;
     margin-top: 0em;
 ">
+
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JiLfNQtbHPM?si=worw9PLYul7fEmLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <h2 style="margin-top: 0px;">JSON Asset Definition Library</h2>
+    <p>
+    I created a Python library for saving Houdini parameter configurations out to a JSON file. The initial motivation behind this project was due to the fact that I wanted to create a TOPnet that could generate variants of some particular geometry based on a file definition. I first tried using the built-in Houdini parameter <a href="https://www.sidefx.com/docs/houdini/network/parms.html#presets" target="_blank">preset</a> feature, but had trouble accessing the preset from inside the TOPnet.
+    </p>
+    <p>
+    An added benefit to going the JSON route is that the file is human readable and the common data format makes it ideal for integrating into larger pipelines.
+    </p>
+  </div>
+</div>
+<div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
+  <div style="flex: 1 1 60%; padding-right: 40px; min-width: 400px;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hjVLm2Y9yRg?si=r6PJLBwX12autUah" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  <div style="flex: 1 1 40%; padding-right: 40px; min-width: 300px;">
+    <p>
+    I later added support for multiparms as well. I used this multiparm functionality in a headstone generator I created to define an arbitrary number of cracks for each headstone asset definition.
+    </p>
+  </div>
+</div>
 
 <script>
   var st_pcgmushrooms = new Swiper(".swiper_thumbnail_pcgmushrooms", {
