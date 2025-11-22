@@ -9,6 +9,8 @@ main:
 docs:
   - title: "2025"
     children:
+      - title: "For Posterity"
+        url: /posts/2025-11-21-ForPosterity/
       - title: "Defining Custom Material Nodes with C++ and HLSL"
         url: /posts/2025-01-10-CustomMaterialExpression/
   - title: "2024"
