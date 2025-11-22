@@ -2,7 +2,7 @@
 permalink: /portfolio/
 layout: single
 author_profile: true
-title: "Portfolio"
+title: "Tech Art Portfolio - Mason Stevenson"
 classes: portfolio-wide
 
 # --- Swiper Assets ---
