@@ -620,3 +620,13 @@ body {
     /* Ensure the bar is on top of the slide content */
     z-index: 10; 
 }
+
+.swiper-top-right-caption {
+  position: absolute;
+  width: 100%;
+  top: 3%;
+  right:3%;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+}
