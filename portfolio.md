@@ -23,7 +23,7 @@ header:
     background-color: grey;
     height: 3px; 
     width: 100%;
-    margin-top: 1px;
+    margin-top: 0px;
 ">
 
 <div style="display: flex; flex-wrap: wrap; margin-top: 2em;">
@@ -104,7 +104,7 @@ header:
     background-color: grey;
     height: 3px; 
     width: 100%;
-    margin-top: 1px;
+    margin-top: 0px;
 ">
 
 <div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
@@ -196,7 +196,7 @@ header:
     background-color: grey;
     height: 3px; 
     width: 100%;
-    margin-top: 1px;
+    margin-top: 0px;
 ">
 
 <div style="display: flex; flex-wrap: wrap; margin-bottom: 2em;">
