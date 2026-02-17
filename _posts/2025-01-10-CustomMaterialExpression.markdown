@@ -33,7 +33,7 @@ The C++ class Unreal uses to define material expression nodes is **UMaterialExpr
 * **Compile()**
   * This is the function that actually contains the node logic. Note that this function is supposedly scheduled to be replaced by GenerateHLSLExpression() at some point, but it is unclear (as of UE5.5) what the status of this migration is. See **Compile() vs Generate HLSLExpression()** below for more details
 * **GenerateHLSLExpression()**
-  * The "new" way to define node logic.
+  * The "new" way to define node logic. (REMOVED IN UE 5.7- see below)
 
 
 
@@ -163,6 +163,10 @@ bool UYourCustomMaterialNode:GenerateHLSLExpression(
 
 
 ## Compile() vs GenerateHLSLExpression()
+
+> NOTE: As of UE 5.7, it appears that GenerateHLSLExpression() [has been removed](https://github.com/EpicGames/UnrealEngine/commit/e154dbc11f4f66b1ac3875fb7df6b93ea58de7df). Apparently this was an experimental feature that never made it to production ready state.
+
+
 
 If you inspect the UE source code, you'll find references to GenerateHLSLExpression() being the replacement for Compile(). It's hard to find concreate information about what makes GenerateHLSLExpression() better than Compile, but my best guess is that the new HLSL generation system is basically a more advanced version of an existing feature in the UE material graph called constant folding, which is an optimization where UE can collapse certain node groups if it is known at compile time that the result from that node group will not change. So for example if you have a group of nodes where you add 3+4 and then multiply by 2, UE will just collapse that cluster of nodes down to a constant value of 14.
 
