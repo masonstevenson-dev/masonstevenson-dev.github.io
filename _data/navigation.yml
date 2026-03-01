@@ -5,7 +5,7 @@ main:
     url: /blog/
   - title: "Portfolio"
     url: /portfolio/
-  
+
 docs:
   - title: "2026"
     children:
