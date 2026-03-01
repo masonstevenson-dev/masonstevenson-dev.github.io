@@ -13,7 +13,7 @@ author_profile: true
 
 
 
-I recently ran into an issue where I was trying to package my Unreal Engine project (5.6, built source build), and I ran into a weird error:
+I recently had an issue where I was trying to package my Unreal Engine project (5.6, source build), and I ran into a weird error:
 
 
 
@@ -44,7 +44,7 @@ Hmm, very strange. When I went to that ErrorLog.txt file, nothing seemed to be a
 
 ## The Fix
 
-The root cause ended up being a problem with **Package 'Magick.NET-Q16-HDRI-AnyCPU'**. For some reason, this package becomes invalidated every few weeks due to having "a known moderate security vulnerability". I actually already encountered this once when I first tried to build the engine source, but apparently the UE AutomationTool can break the UE packaging system if you haven't rebuilt the engine source since that package was last updated. 
+The root cause ended up being a problem with **Package 'Magick.NET-Q16-HDRI-AnyCPU'**. For some reason, this package becomes invalidated every few weeks due to having "a known moderate security vulnerability". I actually already encountered this once when I first tried to build the engine source, but apparently the UE AutomationTool (and therefore the UE packaging system) breaks pretty much every time that Magick.NET file updates. Frustratingly, whatever error this causes never seems to make it into the logs.
 
 
 
