@@ -44,7 +44,7 @@ Hmm, very strange. When I went to that ErrorLog.txt file, nothing seemed to be a
 
 ## The Fix
 
-The root cause ended up being a problem with **Package 'Magick.NET-Q16-HDRI-AnyCPU'**. For some reason, this package becomes invalidated every few weeks due to having "a known moderate security vulnerability". I actually already encountered this once when I first tried to build the engine source, but apparently the UE AutomationTool (and therefore the UE packaging system) breaks pretty much every time that Magick.NET file updates. Frustratingly, whatever error this causes never seems to make it into the logs.
+The root cause ended up being a problem with **Package 'Magick.NET-Q16-HDRI-AnyCPU'**. For some reason, this package becomes invalidated every few weeks due to having "a known moderate security vulnerability". I actually already encountered this once when I first tried to build the engine source, but apparently the UE AutomationTool (and therefore the UE packaging system) breaks pretty much every time that Magick.NET package updates. Frustratingly, whatever error this causes never seems to make it into the logs.
 
 
 
