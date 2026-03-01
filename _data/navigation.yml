@@ -6,7 +6,7 @@ main:
   - title: "Portfolio"
     url: /portfolio/
   
-  docs:
+docs:
   - title: "2026"
     children:
       - title: "How to Fix \"Turnkey returned an error, code 1\" (UE Source Builds)"
